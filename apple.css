@@ -1,0 +1,154 @@
+.template{
+    width: 100%;
+    height: 600px;
+    /* position: relative; */
+    
+    background-color: rgb(106, 216, 106)!important;
+}
+.leftcard{
+    position: absolute;
+    background-color:rgb(255, 255, 255) !important;
+    width:37%;
+    height:85%;
+    border-radius: 3px; 
+    top:30px;
+    left:-15px;
+}
+.applecard{
+    position: relative;
+    /* background-color: rgb(94,220,31); */
+    background-image: linear-gradient(rgb(104, 216, 0),rgb(185, 216, 46),rgb(104, 216, 0));
+    /* background-image: linear-gradient(right,rgb(89, 230, 19),white,rgb(89, 230, 19)); */
+    /* background-image: linear-gradient(left,rgb(89, 230, 19),white,rgb(89, 230, 19)); */
+    width:50%;
+    
+    border-radius: 4px;
+    
+}
+/* .boxsection{
+  display:inline-block;
+} */
+.box{
+    /* position:absolute; */
+   width: 50px;
+   height: 50px;
+   border: 1px solid black;
+   display:inline-block;
+   
+}
+
+.bb{
+    /* justify-content: flex-end; */
+    display:inline-block;
+}
+
+
+.applecard img{
+    position: relative;
+    width:250px;
+    left:-50px;
+
+}
+.pic1{
+    float: left;
+    color: white;
+    margin:7px;
+}
+.pic2{
+    float:right;
+    color:white;
+    margin:8px;
+}
+
+.Appleslice img{
+    right:20px;
+    position: relative;
+    float:right;
+    margin:2px;
+    width: 45px;
+    border: 1px solid rgb(190, 182, 182);
+    border-radius: 5px;
+}
+.whitecard{
+    background-color: rgb(245, 220, 220) !important;
+    position: relative;
+    width:55%;
+    height:85%;
+    top:50px;
+    border-radius: 5px;
+   
+    left:250px;
+}
+.rightcard{
+    position:relative; 
+    padding-left: 20px;
+     float:right;
+     right: 100px;
+     top: 30px;
+
+}
+#apple img{
+    border:0.3px solid rgb(121, 108, 108);
+    border-radius: 5px;
+}
+#delicious {
+color: gray;
+
+}
+#code{
+    color:rgb(199, 196, 196);
+    
+}
+#r{
+   position: relative;
+    color: red;
+    margin: 5px;
+    top:30px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#cost{
+    position: relative;
+    color: red;
+   font-size: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+    top:30px;
+    margin: 5px;
+
+}
+.btn{
+    background-color: rgb(207, 22, 22);
+    font-size: 20px;
+     background-size: 30px;
+     border-radius: 5px;
+     border-color: brown;
+     padding:13px 22px;
+     color:white;
+     text-align: center;
+     size: 10px;
+     display: inline-block;
+}
+/* #apple{
+    border-style: initial;
+    border: double ;
+    width:20px;
+    height:20px
+    border-radius: 1px;
+} */
+/* .leftcard{
+    position: absolute;
+    background-color:green;
+    width:25%;
+    height:75%;
+    top:70px;
+    left:220px;
+} */
+.applecard{
+    /* background-color: lightgreen; */
+    width:100%;
+    height:70%;
+}
+li{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
